@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+    background: #fff;
+    padding: 0;
+    zoom: 1;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #517fa4;
+	cursor: pointer;
+    cursor: hand;
+	background: transparent;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.clearfix {
+	height: 1%;
+	display: inline-block;
+	display: block;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '';
+    clear: both;
+    height: 0;
+}
+
+img {
+	max-width: 100%;
+	cursor: pointer;
+	border-style: none;
+	border: 0;
+	border: none;
+	vertical-align: middle;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.no_select {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.page_content {
+	width: auto;
+	max-width: 900px;
+	margin: 60px auto 10px;
+	overflow: inherit;
+	border: 1px solid rgba(0, 0, 0, .12);
+	padding: 10px;
+}
+.page_content .slider {
+	position: relative;
+}
+.page_content .slider .bottom {
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.slider .bottom a {
+	border-radius: 50%;
+	background: black;
+	color: #fff;
+	padding: 4px 8px;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+}
+.slider .bottom a.clicked {
+	background: #f8e827;
+}
+
+.page_content .gallery {
+	margin-top: 10px;
+}
+
+.page_content .gallery .title {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .12);
+	padding-top: 10px;
+	border-top: 1px solid rgba(0, 0, 0, .12);
+}
+.page_content .gallery .body {
+	padding: 0;
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.page_content .gallery .body a {
+	width: 24.99999%;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 4px;
+}
+.page_content .gallery .body a img {
+	width: 100%;
+    height: auto;
+}
+.page_content .gallery .body a img:hover {
+	transform: scale(1.1);
+}
+
+.footer {
+	border-top: 1px solid rgba(0, 0, 0, .12);
+	color: #333;
+	padding: 10px;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}

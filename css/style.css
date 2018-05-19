@@ -1,0 +1,7 @@
+@charset 'UTF-8';
+@import url('general.css');
+@import url('header.css');
+@import url('gallery_page.css');
+@import url('about_us_page.css');
+@import url('contact.css');
+ #share-buttons img { width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline; }

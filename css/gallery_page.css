@@ -1,0 +1,36 @@
+.gallery_page {
+
+}
+
+.gallery_page .title {
+	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .12);
+}
+.gallery_page .title a {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+}
+.gallery_page .body {
+	padding: 0;
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.gallery_page .body a {
+	width: 24.99999%;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 4px;
+}
+.gallery_page .body a img {
+	width: 100%;
+    height: auto;
+}
+.gallery_page .body a img:hover {
+	transform: scale(1.1);
+}
